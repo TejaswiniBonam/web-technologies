@@ -1,0 +1,13 @@
+<web-app>
+<servlet>
+<servlet-name>loginservlet</servlet-name>
+<servlet-class>loginservlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>loginservlet</servlet-name>
+<url-pattern>/loginservlet</url-pattern>
+</servlet-mapping>
+<welcome-file-list>
+<welcome-file>login.html</welcome-file>
+</welcome-file-list>
+</web-app>

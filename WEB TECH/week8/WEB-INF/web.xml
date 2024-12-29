@@ -1,0 +1,13 @@
+<web-app>
+<servlet>
+<servlet-name>cookie3</servlet-name>
+<servlet-class>cookie3</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>cookie3</servlet-name>
+<url-pattern>/cookie3</url-pattern>
+</servlet-mapping>
+<welcome-file-list>
+<welcome-file>login.html</welcome-file>
+</welcome-file-list>
+</web-app>

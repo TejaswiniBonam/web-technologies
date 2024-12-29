@@ -1,0 +1,13 @@
+<web-app>
+<servlet>
+<servlet-name>bookservlet</servlet-name>
+<servlet-class>bookservlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>bookservlet</servlet-name>
+<url-pattern>/bookservlet</url-pattern>
+</servlet-mapping>
+<welcome-file-list>
+<welcome-file>home.html</welcome-file>
+</welcome-file-list>
+</web-app>

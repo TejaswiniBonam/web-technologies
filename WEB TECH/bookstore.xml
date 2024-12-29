@@ -1,0 +1,47 @@
+<?xml version = "1.0" ?>
+<?xml-stylesheet type="text/xsl" href = "Bookstore.xsl" ?>
+<!DOCTYPE bookstore[
+<!ELEMENT bookstore (book*)>
+<!ELEMENT book (title, author, isbn, publisher, edition, price)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT isbn (#PCDATA)>
+<!ELEMENT publisher (#PCDATA)>
+<!ELEMENT edition (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+]>
+<bookstore>
+<book>
+	<title>WT Black Book</title>
+	<author>KK</author>
+	<isbn>98867</isbn>
+	<publisher>ss</publisher>
+	<edition>78</edition>
+	<price>500</price>
+</book>
+<book>
+	<title>WT Black Book</title>
+	<author>KK</author>
+	<isbn>98867</isbn>
+	<publisher>ss</publisher>
+	<edition>78</edition>
+	<price>500</price>
+</book>
+<book>
+	<title>WT Black Book</title>
+	<author>KK</author>
+	<isbn>98867</isbn>
+	<publisher>ss</publisher>
+	<edition>78</edition>
+	<price>500</price>
+</book>
+<book>
+	<title>WT Black Book</title>
+	<author>KK</author>
+	<isbn>98867</isbn>
+	<publisher>ss</publisher>
+	<edition>78</edition>
+	<price>500</price>
+</book>
+</bookstore>
+

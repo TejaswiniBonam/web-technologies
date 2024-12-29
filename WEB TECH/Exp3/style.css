@@ -1,0 +1,48 @@
+div{
+    width: 150px;
+    height: 50px;
+    float: left;
+    margin: 20px;
+    text-align: center;
+    line-height: 50px;
+}
+div.c1{
+    border: 3px solid red;
+    cursor: help;
+}
+div.c2{
+    border: 3px solid red;
+    cursor:wait ;
+}
+div.c3{
+    border: 3px solid red;
+    cursor: crosshair;
+}
+div.c4{
+    border: 3px solid red;
+    cursor: pointer;
+}
+div.c5{
+    border: 3px solid red;
+    cursor:no-drop ;
+}
+div.c6{
+    border: 3px solid red;
+    cursor: alias;
+}
+div.c7{
+    border: 3px solid red;
+    cursor: all-scroll;
+}
+div.c8{
+    border: 3px solid red;
+    cursor: e-resize;
+}
+div.c9{
+    border: 3px solid red;
+    cursor: grab;
+}
+div.c10{
+    border: 3px solid red;
+    cursor: url("s1.jpg");
+}
